@@ -12,43 +12,54 @@ A precision-based embedded system built using Arduino to challenge users to stop
 
 ## ⚙️ Technologies Used
 
-- **Microcontroller**: Arduino Uno
-- **Language**: Embedded C++ (Arduino IDE)
-- **Components**: LCD, push button, buzzer, LED, resistors, 3D-printed enclosure
-- **Software**: Arduino IDE, SolidWorks (design), TinkerCad (circuit)
+- **Microcontroller**: Arduino Uno  
+- **Language**: Embedded C++ (Arduino IDE)  
+- **Components**: LCD, push button, buzzer, LED, resistors, 3D-printed enclosure  
+- **Software**: Arduino IDE, SolidWorks (enclosure design), Tinkercad (circuit simulation)
+📄 [View the Arduino Source Code](./5SecondStop.ino)
+
 
 ## 🖼️ Photos
 
-*(Upload these in a folder called `/images` and update the paths)*
+### 🔧 Final Build  
+*3D-printed enclosure with LCD, buzzer, and control button.*  
+![Final Build](device_photo.jpg)
 
-![Final Build](images/device_photo.jpg)
-![Circuit Diagram](images/circuit_diagram.jpg)
+---
+
+### 📊 Circuit Diagram  
+*Breadboard schematic showing component connections and layout .*  
+![Circuit Diagram](circuit_diagram.jpg)
+
+---
+
+### 🧩 CAD Design  
+*SolidWorks enclosure model for housing the entire system (split into 4 parts due to 3D printer dimension limitations).*  
+![CAD Design](CAD_Design.jpg)
+
+## 🎥 Demo Video
+
+Watch it in action:  
+➡️ [Demo Video – 5 Second Stop Rig (YouTube Short)](https://www.youtube.com/shorts/PNo7qME4kEY)
 
 ## 🧠 How It Works
 
-1. Press the start button to begin the timer.
-2. The system displays time in real-time.
-3. User tries to stop it at **exactly 5.00 seconds**.
-4. Success/failure is indicated via LED and buzzer logic.
-5. Device resets for repeated use.
+1. Press the start button to begin the timer.  
+2. The LCD displays time in real-time.  
+3. Try to stop the timer at exactly **5.00 seconds**.  
+4. Success triggers a buzzer melody + LED. Failure plays a different tone.  
+5. Device resets automatically and displays battery level on LCD.
 
-This was designed to challenge precision reaction timing, with exacting tolerances to test embedded logic and hardware integration.
-
-## 📂 Files
-
-- `5SecondStop.ino` – main Arduino code (logic + control)
-- `images/` – photos, circuit diagrams
-- `FYP_summary.pdf` – optional summary sheet of project overview
 
 ## 📘 What I Learned
 
-- Real-time embedded programming
-- Signal debouncing and input handling
-- LCD interfacing and timing precision
-- Hardware-software design + debugging
+- Real-time embedded programming  
+- Signal debouncing and input handling  
+- LCD interfacing and timing precision  
+- Hardware-software debugging and feedback design  
+- Multidisciplinary integration (CAD + embedded logic)
 
 ## 👨‍💻 Built By
 
 Ivan McCauley — Mechatronics Engineering Graduate  
 [LinkedIn](https://www.linkedin.com/in/ivan-mccauley-82b17a177)
-
