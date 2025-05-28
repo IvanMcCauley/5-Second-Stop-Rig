@@ -40,7 +40,7 @@ A precision-based embedded system built using Arduino to challenge users to stop
 ## 🎥 Demo Video
 
 Watch it in action:  
-➡️ [Demo Video – 5 Second Stop Rig (YouTube Short)](https://www.youtube.com/shorts/PNo7qME4kEY)
+➡️ [Demo Video – 5 Second Stop Rig (YouTube Short)](https://youtube.com/shorts/lqYZ7MV_RtU?feature=shared)
 
 ## 🧠 How It Works
 
