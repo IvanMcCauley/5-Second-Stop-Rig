@@ -1,6 +1,6 @@
 # 🛑 5 Second Stop Rig – Reaction Timer Project
 
-A precision-based embedded system built using Arduino to challenge users to stop a timer at **exactly 5.00 seconds**. Designed as part of my final year Mechatronics Engineering project, this rig blends real-time feedback, control logic, and human interaction.
+A precision-based embedded system, designed for children in primary schools, built using Arduino to challenge users to stop a timer at **exactly 5.00 seconds**. Designed as part of my final year Mechatronics Engineering project, this rig blends real-time feedback, control logic, and human interaction.
 
 ## 🔧 Features
 
